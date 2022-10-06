@@ -33,6 +33,9 @@ const fetchData = async (e) => {
   setHumidity(data.main.humidity)
   setWind(data.wind.speed)
 
+  setDataFetched(true)
+  //console.log(data)
+
 }
 
 const defaultDataFetched = async () => {
@@ -40,7 +43,16 @@ const defaultDataFetched = async () => {
   if(!dataFetched){
   const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Nairobi&appid=${API_KEY}&units=metric`);
   const data = await res.data
-  
+
+    setDegrees(data.main.temp)
+    setLocation(data.name)
+    setDescription(data.weather[0].description)
+    setIcon(data.weather[0].icon)
+    setHumidity(data.main.humidity)
+    setWind(data.wind.speed)
+   
+    }
+
   }
 
 
