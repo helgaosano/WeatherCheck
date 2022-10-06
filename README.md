@@ -10,22 +10,29 @@ It is developed to help users get access to the information they need and be awa
 The goal of this project is to allow a user to get the current weather information of a location of their choice.
 
 The objectives of this project are:
-To allow a user to input a city name to search for weather information.
 
-To display the current weather temperature, condition, humidity and wind speed.
-
-To allow users to like the weather of that day.
+1. To allow a user to input a city name to search for weather information.
+2. To display the current weather temperature, condition, humidity and wind speed.
+3. To allow users to like the weather of that day.
 
 ## Phases
 
 
 ## Technologies
-HTML 
-CSS
-REACTJS
+- HTML 
+- CSS
+- ReactJs
 
-HTML and CSS are used to set basic layout of the page and make the page beautiful.
+HTML and CSS are used to set basic layout of the page and make the page beautiful while ReactJs is used to build interactive User Interfaces.
 
-REACTJS is used to build interactive User Interfaces.
+## Installation Process
+
+- Clone to the repo: git clone https://github.com/helgaosano/WeatherCheck
+- Unzip the downloaded files in a folder of choice.
+- Open the index file from the zipped file with any browser.
+
+## Live Link?
+
+Click Me! 
 
 
