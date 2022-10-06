@@ -55,15 +55,13 @@ const defaultDataFetched = async () => {
 
   }
 
-
 //Calling defaultDataFetched function in UseEffect
 useEffect(() => {
   defaultDataFetched() 
  }, [])
 
-
   return (
-    <div className="App">
+  <div className="App">
     <div className="weather">
       <Input 
         text={(e) => setuserLocation(e.target.value)}
@@ -71,16 +69,14 @@ useEffect(() => {
         func={fetchData}
       />
 
-      <div className="weather_display">
-        <h3 className="weather_location">Weather in {location}</h3>
+    <div className="weather_display">
+      <h3 className="weather_location">Weather in {location}</h3>
 
-        
-        <div>
-          <h1 className="weather_degrees">Temp: {degrees}°C</h1>
-        </div>
+      <div>
+        <h1 className="weather_degrees">Temp: {degrees}°C</h1>
+      </div>
 
         <div className="weather_description">
-
           <div>
             <div className="weather_description_head">
               <span className="weather_icon" >

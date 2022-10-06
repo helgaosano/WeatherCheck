@@ -6,8 +6,12 @@
 h2{
   text-align: center;
   font-size: 30px;
+
 }
 
+h2:hover{
+  color: rgb(73, 183, 247);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,4 +23,9 @@ body {
   background-size: cover;
   align-items: center;
 }
-
+.page_title{
+font-family: "Open Sans" sans-serif;
+}
+.logo-type{
+  size: 100px;
+}

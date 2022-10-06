@@ -1,6 +1,10 @@
 # WeatherToday 
 ## Author Name: Tania Osano
 
+## Screenshot
+
+ screencapture-localhost-3000-2022-10-06-22_46_25 (1).png
+
 ## Introduction
 WeatherToday is an application that displays the current weather information comprising of temperature, humidity, wind speed and the condition of a given location that a user inputs in a search bar.
 
@@ -33,6 +37,6 @@ HTML and CSS are used to set basic layout of the page and make the page beautifu
 
 ## Live Link?
 
-Click Me! 
+Click here 
 
 
