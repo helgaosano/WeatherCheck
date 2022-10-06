@@ -12,13 +12,13 @@ const LikeButton = () => {
     } else {
       setLikes(likes + 1);
     }
-    
+    setIsClicked(!isClicked);
   };
 
   return (
-    <div>
-        <button className={ `like-button ${isClicked && 'liked'}` } onClick={ handleClick }>
-            <span className="likes-counter">{ `♥ | ${likes} likes weather ` }</span>
+    <div className={ `like-button ${isClicked && 'liked'}` } onClick={ handleClick }>
+        <button className="like">
+            <span className="likes-counter"> {` ${likes} ♥`}</span>
         </button>
     </div>
   );

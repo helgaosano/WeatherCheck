@@ -89,11 +89,10 @@ useEffect(() => {
                 <h3>Humidity: {humidity}%</h3>
                 <br/>
                 <h3>Wind speed: {wind}m/s</h3>
+                <br/>
+                <LikeButton />
           </div>
           
-          <div className="like_button">
-          <LikeButton />
-          </div>
         </div>
       </div>
     </div>  

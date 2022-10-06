@@ -18,7 +18,6 @@
     flex-direction: column;
     padding: 2rem;
     justify-content: space-around;
-    position: fixed;
   }
   
   /*Location section*/
@@ -37,6 +36,7 @@
   .weather_description{
   display: flex;
   align-items: center;
+  float: right;
   }
 
   .weather_description_head{
@@ -71,5 +71,19 @@
 
   .like_button{
     background-color: whitesmoke;
-    color: rgb(32, 26, 26);
+    color: blue;
+    border-radius: 100%;
+  }
+
+  .like{
+    font-size: 22px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color:black;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(141, 224, 245);
+
   }
