@@ -15,6 +15,8 @@ const[humidity, setHumidity] = useState(null)
 const[wind, setWind] = useState(null)
 const[dataFetched, setDataFetched] = useState(false)
 
+//Declaring API key
+const API_KEY = "c5710bba284a705d5ea43d668d40a61a";
 
   return (
     <div className="App">
