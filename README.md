@@ -1,10 +1,6 @@
 # WeatherToday 
 ## Author Name: Tania Osano
 
-## Screenshot
-
- screencapture-localhost-3000-2022-10-06-22_46_25 (1).png
-
 ## Introduction
 WeatherToday is an application that displays the current weather information comprising of temperature, humidity, wind speed and the condition of a given location that a user inputs in a search bar.
 
@@ -18,9 +14,6 @@ The objectives of this project are:
 1. To allow a user to input a city name to search for weather information.
 2. To display the current weather temperature, condition, humidity and wind speed.
 3. To allow users to like the weather of that day.
-
-## Phases
-
 
 ## Technologies
 - HTML 

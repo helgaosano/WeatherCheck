@@ -2,19 +2,20 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Input from "./components/Input";
+import LikeButton from "./components/LikeButton";
 
 function App() {
 
 //adding states to the application
 
-const[degrees, setDegrees] = useState(null)
-const[location, setLocation] = useState("")
-const[userLocation, setuserLocation] = useState("")
-const[description, setDescription] = useState("")
-const[icon, setIcon] = useState("")
-const[humidity, setHumidity] = useState(null)
-const[wind, setWind] = useState(null)
-const[dataFetched, setDataFetched] = useState(false)
+const [degrees, setDegrees] = useState(null)
+const [location, setLocation] = useState("")
+const [userLocation, setuserLocation] = useState("")
+const [description, setDescription] = useState("")
+const [icon, setIcon] = useState("")
+const [humidity, setHumidity] = useState(null)
+const [wind, setWind] = useState(null)
+const [dataFetched, setDataFetched] = useState(false)
 
 //Declaring API key
 const API_KEY = "c5710bba284a705d5ea43d668d40a61a";
@@ -86,7 +87,12 @@ useEffect(() => {
             </div>
             
                 <h3>Humidity: {humidity}%</h3>
+                <br/>
                 <h3>Wind speed: {wind}m/s</h3>
+          </div>
+          
+          <div className="like_button">
+          <LikeButton />
           </div>
         </div>
       </div>
