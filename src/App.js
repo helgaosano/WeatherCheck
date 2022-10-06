@@ -18,6 +18,21 @@ const[dataFetched, setDataFetched] = useState(false)
 //Declaring API key
 const API_KEY = "c5710bba284a705d5ea43d668d40a61a";
 
+const fetchData = async (e) => {
+  e.preventDefault()
+
+  const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${userLocation}&appid=${API_KEY}&units=metric`);
+  const data = await res.data
+
+//Assigning values to states
+  setDegrees(data.main.temp)
+  setLocation(data.name)
+  setDescription(data.weather[0].description)
+  setIcon(data.weather[0].icon)
+  setHumidity(data.main.humidity)
+  setWind(data.wind.speed)
+}
+
   return (
     <div className="App">
        <div className="weather">
