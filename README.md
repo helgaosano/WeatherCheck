@@ -1,7 +1,7 @@
 # WeatherToday 
 ## Author Name: Tania Osano
 
-##View Screenshot
+## View Screenshot
 ![screencapture-localhost-3000-2022-10-07-01_46_38](https://user-images.githubusercontent.com/110397844/194434185-8c51c24b-047c-4e9a-85a4-f3c15324712e.png)
 
 ## Introduction
