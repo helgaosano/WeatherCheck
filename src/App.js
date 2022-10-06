@@ -35,26 +35,39 @@ const fetchData = async (e) => {
 
   return (
     <div className="App">
-       <div className="weather">
+    <div className="weather">
       <Input 
+      text={(e) => setuserLocation(e.target.value)}
+      submit = {fetchData}
+      func={fetchData}
       />
 
       <div className="weather_display">
-        <h3 className="weather_location">Weather in Tokyo</h3>
+        <h3 className="weather_location">Weather in {location}</h3>
+
+        
         <div>
-          <h1 className="weather_degrees">Temp: 32°C</h1>
+          <h1 className="weather_degrees">Temp: {degrees}°C</h1>
         </div>
+
         <div className="weather_description">
+
           <div>
-                <h3>cloudy</h3>
+            <div className="weather_description_head">
+              <span className="weather_icon" >
+                <img src={`http://openweathermap.org/img/w/${icon}.png`} alt="weather_icon" />
+               </span>
+                <h3>{description}</h3>
             </div>
-                <h3>Humidity: %</h3>
-                <h3>Wind speed:m/s</h3>
+            
+                <h3>Humidity: {humidity}%</h3>
+                <h3>Wind speed: {wind}m/s</h3>
           </div>
         </div>
       </div>
     </div>  
+  </div>
   );
+  
 }
-
 export default App;
