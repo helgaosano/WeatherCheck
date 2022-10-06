@@ -2,6 +2,19 @@ import './App.css';
 import Input from "./components/Input";
 
 function App() {
+
+//adding states to the application
+
+const[degrees, setDegrees] = useState(null)
+const[location, setLocation] = useState("")
+const[userLocation, setuserLocation] = useState("")
+const[description, setDescription] = useState("")
+const[icon, setIcon] = useState("")
+const[humidity, setHumidity] = useState(null)
+const[wind, setWind] = useState(null)
+const[dataFetched, setDataFetched] = useState(false)
+
+
   return (
     <div className="App">
        <div className="weather">
