@@ -32,7 +32,18 @@ const fetchData = async (e) => {
   setIcon(data.weather[0].icon)
   setHumidity(data.main.humidity)
   setWind(data.wind.speed)
+
 }
+
+const defaultDataFetched = async () => {
+
+  if(!dataFetched){
+  const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Nairobi&appid=${API_KEY}&units=metric`);
+  const data = await res.data
+  
+  }
+
+
 //Calling the function in UseEffect
 useEffect(() => {
   fetchData() 
@@ -45,6 +56,7 @@ useEffect(() => {
       <Input 
         text={(e) => setuserLocation(e.target.value)}
         submit = {fetchData}
+        func={fetchData}
       />
 
       <div className="weather_display">
