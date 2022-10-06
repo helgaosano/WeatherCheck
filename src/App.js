@@ -44,7 +44,7 @@ useEffect(() => {
     <div className="weather">
       <Input 
         text={(e) => setuserLocation(e.target.value)}
-       
+        submit = {fetchData}
       />
 
       <div className="weather_display">
