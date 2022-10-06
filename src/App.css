@@ -1,0 +1,35 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+  }
+  
+  .weather {
+    width: 35rem;
+    height: 24rem;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-around;
+  }
+  
+  .weather_location {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .weather_degrees{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .weather_description{
+  display: flex;
+  align-items: center;
+  }
+  

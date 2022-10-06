@@ -2,6 +2,7 @@ import React from "react";
 import "./input.css";
 import { FiSearch } from 'react-icons/fi';
 
+
 const Input = () => {
   return (
     <form >
