@@ -58,7 +58,7 @@ const defaultDataFetched = async () => {
 
 //Calling the function in UseEffect
 useEffect(() => {
-  fetchData() 
+  defaultDataFetched() 
  }, [])
 
 
