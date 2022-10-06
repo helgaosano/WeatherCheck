@@ -43,7 +43,8 @@ useEffect(() => {
     <div className="App">
     <div className="weather">
       <Input 
-     
+        text={(e) => setuserLocation(e.target.value)}
+       
       />
 
       <div className="weather_display">
