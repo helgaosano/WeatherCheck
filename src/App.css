@@ -7,6 +7,7 @@
     color: grey;
   }
   
+  /*Main weather display*/
   .weather {
     width: 35rem;
     height: 24rem;
@@ -18,16 +19,19 @@
     justify-content: space-around;
   }
   
+  /*Location section*/
   .weather_location {
     font-size: 2rem;
     font-weight: 500;
   }
   
+  /*Degrees section*/
   .weather_degrees{
     font-size: 2rem;
     font-weight: 500;
   }
   
+  /*Description section*/
   .weather_description{
   display: flex;
   align-items: center;
@@ -38,11 +42,13 @@
     align-items: center;
   }
   
+  /*Icon displayed*/
   .weather_icon{
     font-size: 3rem;
     margin-right: 0.4rem;
   }
   
+  /*description heading*/
   .weather_description *h3{
     font-size: 2rem;
     font-weight: normal;

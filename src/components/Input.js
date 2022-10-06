@@ -3,9 +3,9 @@ import "./input.css";
 import { FiSearch } from 'react-icons/fi';
 
 
-const Input = () => {
+const Input = ({submit}) => {
   return (
-    <form >
+    <form className="input" onSubmit={submit}>
         <input type={"text"} className="input_value" placeholder = "Please Enter Location" />
         <FiSearch />
         
