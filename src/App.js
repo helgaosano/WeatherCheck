@@ -1,5 +1,6 @@
-import './App.css';
+import axios from "axios";
 import React, { useEffect, useState } from "react";
+import "./App.css";
 import Input from "./components/Input";
 
 function App() {
@@ -32,14 +33,17 @@ const fetchData = async (e) => {
   setHumidity(data.main.humidity)
   setWind(data.wind.speed)
 }
+//Calling the function in UseEffect
+useEffect(() => {
+  fetchData() 
+ }, [])
+
 
   return (
     <div className="App">
     <div className="weather">
       <Input 
-      text={(e) => setuserLocation(e.target.value)}
-      submit = {fetchData}
-      func={fetchData}
+     
       />
 
       <div className="weather_display">
