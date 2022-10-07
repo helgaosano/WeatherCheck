@@ -12,7 +12,7 @@ const LikeButton = () => {
     } else {
       setLikes(likes + 1);
     }
-    setIsClicked(!isClicked);
+    //setIsClicked(!isClicked);
   };
 
   return (

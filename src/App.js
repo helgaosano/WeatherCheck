@@ -62,6 +62,7 @@ useEffect(() => {
  }, [])
 
   return (
+    
   <div className="App">
     <div className="weather">
       <Input 
@@ -74,7 +75,7 @@ useEffect(() => {
       <h3 className="weather_location">Weather in {location}</h3>
 
       <div>
-        <h1 className="weather_degrees">Temp: {degrees}°C</h1>
+        <h2 className="weather_degrees">Temp: {degrees}°C</h2>
       </div>
 
         <div className="weather_description">

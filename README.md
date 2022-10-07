@@ -1,8 +1,10 @@
 # WeatherToday 
 ## Author Name: Tania Osano
 
+## View Screenshot
+
 ## Introduction
-WeatherToday is an application that displays the current weather information comprising of temperature, humidity, wind speed and the condition of a given location that a user inputs in a search bar.
+WeatherToday is a simple application that displays the current weather information comprising of temperature, humidity, wind speed and the condition of a given location that a user inputs in a search bar.
 
 It is developed to help users get access to the information they need and be aware of the weather conditions in their location and other locations.
 
@@ -22,6 +24,8 @@ The objectives of this project are:
 
 HTML and CSS are used to set basic layout of the page and make the page beautiful while ReactJs is used to build interactive User Interfaces.
 
+It leverages publicly available open weather API.
+
 ## Installation Process
 
 - Clone to the repo: git clone https://github.com/helgaosano/WeatherCheck
@@ -30,6 +34,6 @@ HTML and CSS are used to set basic layout of the page and make the page beautifu
 
 ## Live Link?
 
-Click here 
+Click here : 
 
 
