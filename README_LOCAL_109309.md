@@ -3,7 +3,6 @@
 
 ## View Screenshot
 
-
 ## Introduction
 WeatherToday is a simple application that displays the current weather information comprising of temperature, humidity, wind speed and the condition of a given location that a user inputs in a search bar.
 

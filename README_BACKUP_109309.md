@@ -2,7 +2,10 @@
 ## Author Name: Tania Osano
 
 ## View Screenshot
-
+<<<<<<< HEAD
+=======
+![screencapture-localhost-3000-2022-10-07-01_46_38](https://user-images.githubusercontent.com/110397844/194434185-8c51c24b-047c-4e9a-85a4-f3c15324712e.png)
+>>>>>>> dbbdd28412fc3b8a33948c4c05cfe92d136e900c
 
 ## Introduction
 WeatherToday is a simple application that displays the current weather information comprising of temperature, humidity, wind speed and the condition of a given location that a user inputs in a search bar.
